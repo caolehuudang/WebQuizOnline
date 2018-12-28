@@ -1,0 +1,298 @@
+	nav{
+		font-size:21px;
+		text-align:center;
+		width:100%;
+		
+	}
+	
+
+	.dropdown-menu{
+		font-size:20px;
+		color: #ffff;
+		background-color: #FF7600;
+		text-align:center;
+	}
+
+	#back-top {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+	}
+
+	#back-top span {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 7px;
+    background: url(http://northernvoice.ca/northern-voice.png) center no-repeat;
+    background-size: 50px 50px;
+	}
+	.LeftBF{
+    margin: 10px 10px 5px 10px;
+	font-size:16px;
+	}
+.LeftBF ul{
+    margin: 10px 10px 5px 10px;
+}
+
+.container img{
+    margin-top:  -45px;
+    margin-bottom: 30px;
+    height: 100px;
+}
+.constant img{
+	width: 100%;
+	height: 60%;
+}
+
+.poster{
+	text-align: center;
+	font-family: sans-serif;
+}
+.poster .welcome{
+	font-size: 50px;
+}
+.poster .note{
+	font-size: 30px;
+}
+
+.mg-top{
+	margin-top: 15px;
+	
+}
+.panel-body{
+	text-align:center;
+}
+
+.desc{
+	color: #FF7600;
+}
+
+.private h2	{
+	color:red;
+}
+
+
+/**************Admin Page*************/
+
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+    z-index:10;
+	background: rgba(180, 185, 180, 105);
+	padding:50px;
+	bottom:0px;
+	transition: all 0.7s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+.changeTheme{
+	background-color: rgba(0, 0, 0, 1);
+	
+}
+.changeTheme .text{
+	color: peru;
+}
+.changeTheme .chart{
+	background-color: gray;
+}
+
+#piechart{
+	margin: auto;
+	width: 900px;
+	height: 500px;
+}
+
+/*************Admin Responsive********************/
+@media only screen and (max-width: 560px) {
+	#piechart{
+		width: 300px;
+		height: 200px;
+	}
+	.changeTheme .text{
+		margin-left: 10%;
+	}
+}
+
+
+
+/*******************Home Responsive****************/
+@media only screen and (max-width: 560px) {
+	.poster .welcome{
+		font-size: 25px;
+	}
+	.poster .note{
+		font-size: 18px;
+	}
+	.constant img{
+		margin-top: 10%;
+	}
+	.LeftBF h3{
+		font-size: 18px;
+	}
+	.LeftBF p{
+		font-size: 15px;
+	}
+}
+
+/*******************Library Responsive****************/
+
+.weather div{
+	position: fixed;
+	border-radius:10px;
+	background-color:rgba(140, 140, 140, 0.5);
+}
+.weather p{
+	margin: 8px;
+	font-size: 18px;
+	cursor: pointer;
+	z-index:1;
+}
+#slide{
+	width:100%;
+	height:600px;
+}
+.carousel-caption h3{
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.carousel-caption p{
+	color: #FF7600;
+	font-size: 20px;
+}
+.textSubject{
+	color: #FF7600;
+	text-shadow: 1px 2px rgba(140, 140, 140, 0.5);
+}
+@media only screen and (max-width: 1200px) {
+	.weather div{
+		border-radius:7px;
+		background-color:white;
+		position: static;
+		text-align: center;
+	}
+	.weather p{
+		font-size: 16px;
+		z-index:1;		
+	}
+	 #slide{
+		width:100%;
+		height:400px;
+	}
+}
+@media only screen and (max-width: 560px) {
+	.weather div{
+		border-radius:5px;
+		background-color:white;
+		position: static;
+		text-align: center;
+	}
+	.weather p{
+		font-size: 16px;
+		z-index:1;		
+	}
+	 #slide{
+		width:100%;
+		height:250px;
+	}
+	#back-top span {
+		width: 35px;
+		height: 35px;
+		display: block;
+		margin-bottom: 7px;
+		background: url(http://northernvoice.ca/northern-voice.png) center no-repeat;
+		background-size: 35px 35px;
+	}
+	.carousel-caption h3{
+		font-size: 20px;
+	}
+	.carousel-caption p{
+		font-size: 15px;
+	}
+	.textSubject{
+		text-align: center;
+	}
+}
+
+.watch{
+	 border:  #ff0000 solid 2px;
+		background-color: red;
+		color: white;
+		margin-left: 60%;
+		text-align: center;
+}
+
+/********************Test Responsive***********************/
+@media only screen and (max-width: 560px) {
+	.question{
+		font-size: 14px;
+	}
+	#banner{
+		margin-left: -50%;
+		z-index:100 ;
+		
+	}
+	.watch{
+		z-index:100 ;
+	}
+}
